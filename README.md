@@ -1,4 +1,4 @@
-# recrutation_task
+# Recrutation task - hedgehog problem
 
 Structure:
 * rummer - main method of application
@@ -6,6 +6,7 @@ Structure:
 * io - classes to read from and write to files
 
 Exceptions: 
+
 There is thrown IncorrectMatrixException when provided matrix is emty or isn't matrix
 
 Hedgehog Porblem sollution for matrix (MxN):
@@ -13,6 +14,7 @@ Hedgehog Porblem sollution for matrix (MxN):
 * additional memory cost: O(min(M, N))
 
 Algorithm:
+
 For given matrix NxM (lets assume that N < M), program creates additiona array of N elements.
 Algoritm iterates over rows and then over each field in row.
 For each field algoritm executes two operations:
